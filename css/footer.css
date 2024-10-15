@@ -1,0 +1,12 @@
+#footer {
+  background-color: #1f1d36;
+  color: #eeeeee;
+  margin-top: 30px;
+}
+
+footer h5 {
+  font-family: "Noto Serif", serif;
+}
+.footer-container {
+  border-bottom: 1px solid #e099b6;
+}

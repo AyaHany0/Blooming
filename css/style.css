@@ -1,0 +1,59 @@
+@import "./header.css";
+@import "./about.css";
+@import "./card.css";
+@import "./footer.css";
+@import "./signin.css";
+
+/* font-family: "Lato", sans-serif;
+font-family: "Noto Serif", serif; */
+.btn-order,
+.btn-sign {
+  border-radius: 15px;
+  background-color: #e099b6;
+  color: #eee;
+  padding: 15px 30px;
+}
+
+.hidden {
+  display: none;
+}
+.error-message {
+  color: #e099b6;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none; /* Hide by default */
+}
+
+.add-to-cart-btn {
+  width: 50%;
+  margin: auto;
+  background-color: #e099b6;
+  color: #eee;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+#cart-section h3 {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex !important;
+}
